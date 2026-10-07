@@ -78,8 +78,8 @@ print("Total Minutes on each app", df['Total_Screen_Time'])
 app_totals={
     "Insta":df["Instagram_Minutes"].sum(),
     "YouTube":df["YouTube_Minutes"].sum(),
-    "Whatsapp":df["WhatsApp_Minutes"].sum();
-    
+    "WhatsApp":df["WhatsApp_Minutes"].sum(),
+    "LinkedIn":df["LinkedIn_Minutes"].sum()
 }
 
 most_app = max(app_totals,key=app_totals.get)
